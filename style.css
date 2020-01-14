@@ -1,0 +1,87 @@
+body{
+    font-family: arial,sans-serif;
+    font-size: 12.5px;
+}
+.navbar{
+    padding: 12px;
+    word-spacing: 15px;
+}
+.logo {
+    display: block;
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 225px;
+}
+.searchbox {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.searchbar {
+    width: 480px;
+    margin-top: 10px;
+    justify-content:center;
+    border: 1px solid #cbced4;
+    border-radius: 25px;
+    padding: 15px;
+    outline: none;
+    padding-left: 40px;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+}
+.buttonarea {
+    display:flex;
+    justify-content: center;
+}
+.signin {
+    background-color:rgb(58, 141, 236);
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #ffffff;
+    font-family: arial,sans-serif;
+    font-size: 12px;
+    padding: 10px 16px;
+    font-weight: bold;
+}
+.buttons {
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none
+  }
+a:link {
+    text-decoration: none;
+    color: black;
+  }
+  
+a:visited {
+    text-decoration: none;
+    color: black;
+
+  }
+  
+a:hover {
+    text-decoration: none;
+    color: black;
+
+  }
+  
+a:active {
+    text-decoration: none;
+    color: black;
+
+  }
+.products{
+    color: gray;
+}
