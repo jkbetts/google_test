@@ -8,22 +8,26 @@
 
     <body>
         <!---Upper Navbar-->
-        <p class="navbar" style="text-align:left;">
-            <a href="about.html">About</a>
-            <a href="store.html">Store</a>
-           <span style="float:right">
-            <a href="gmail.html">Gmail</a>
-            <a href="images.html">Images</a>
-            <a href="products.html"><img class="products" SRC="images/googlebuttons.png"></a>
-            <button class="signin" type="submit" value="Sign In">Sign In</button>
-            </span>
-        </p>
+        <div class="navbar">
+            <div class="left-nav">
+                <a href="about.html">About</a>
+                <a href="store.html">Store</a>
+            </div>
 
+            <div class="right-nav">
+                <a href="gmail.html">Gmail</a>
+                <a href="images.html">Images</a>
+                <a style="vertical-align:middle;" href="products.html"><img class="products" SRC="images/googlebuttons.png"></a>
+                <button class="signin" type="submit" value="Sign In">Sign In</button></span>
+            </div>
+        </div>
+            <br>
+        <!---Google Logo-->
         <img SRC='https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png' class="logo">
+        <!---Form and Buttons-->
         <form class="searchbox">          
              <input class="searchbar" type="text" placeholder="Search the web...">
           </form>
-        </div>
         <div class="buttonarea">
             <button class="buttons" type="submit" form="form1" value="Submit">Google Search</button>
             <button class="buttons" type="submit" form="form2" value="I'm Feeling Lucky">I'm Feeling Lucky</button>
